@@ -12,7 +12,7 @@ function App() {
       <div><Navbar /></div>
       <div>
         <Routes>
-          <Route path='/' element={<Suspense fallback={<div> </div>}><Home /></Suspense>} />  
+          <Route path='/KevinLovelyWedding/' element={<Suspense fallback={<div> </div>}><Home /></Suspense>} />  
         </Routes>
       </div>
     </div>
